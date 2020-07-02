@@ -1,7 +1,78 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root {
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+  --accent-color: #2196f3;
+  --primary-with-color: #ffffff;
+  --footer-backround-color: #2f303a;
+  --main-black-color: #000000;
+  --secondary-white-color: #f5f4fa;
+  --footer-links-color: rgba (255, 255, 255, 0.6);
+  --hover-links-color: #188ce8;
+}
+
 body {
-  background-color: #fff;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+button {
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding: 10px;
 }
 
 button:hover {
-  color: blue;
+  background: #2196f3;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+}
+
+a:hover {
+  color: #2196f3;
+}
+
+a:focus {
+  color: #2196f3;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo-color {
+  color: #2196f3;
 }
