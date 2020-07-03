@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Web studio</title>
     <link
@@ -18,20 +19,26 @@
             <span class="logo-color">Web</span> Studio</a
           >
           <div>
-            <ul>
-              <li><a href="">Студия</a></li>
-              <li><a href="./portfolio.html">Портфолио</a></li>
-              <li><a href="">Контакты</a></li>
+            <ul class="nav-item">
+              <li><a href="" class="nav-item-link">Студия</a></li>
+              <li>
+                <a href="./portfolio.html" class="nav-item-link">Портфолио</a>
+              </li>
+              <li><a href="" class="nav-item-link">Контакты</a></li>
             </ul>
           </div>
         </nav>
 
         <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <li class="contacts-item">
+            <a href="mailto:info@devstudio.com" class="contacts-item-link"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:380961111111">+38 096 111 11 11</a>
+            <a href="tel:380961111111" class="contacts-item-link"
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -43,41 +50,41 @@
       <div class="container">
         <section>
           <img src="./img/Header-img.png" alt="Обложка" width="1200" />
-          <h1>Эффективные решения для вашего бизнеса</h1>
-          <button>Заказать услугу</button>
+          <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="hero-modal-btn">Заказать услугу</button>
         </section>
 
         <section>
-          <h2>Качества</h2>
+          <h2 class="quality-list">Качества</h2>
           <ul>
             <li>
               <img src="./img/antenna-1.svg" alt="antenna" />
-              <h3>Внимание к деталям</h3>
-              <p>
+              <h3 class="quality-list-item">Внимание к деталям</h3>
+              <p class="discription-text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
             <li>
               <img src="./img/clock-1.svg" alt="Часы" />
-              <h3>Пунктуальность</h3>
-              <p>
+              <h3 class="quality-list-item">Пунктуальность</h3>
+              <p class="discription-text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
             <li>
               <img src="./img/diagram-1.svg" alt="Диаграмма" />
-              <h3>Планирование</h3>
-              <p>
+              <h3 class="quality-list-item">Планирование</h3>
+              <p class="discription-text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
             <li>
               <img src="./img/astronaut-1.svg" alt="Астронавт" />
-              <h3>Современные технологии</h3>
-              <p>
+              <h3 class="quality-list-item">Современные технологии</h3>
+              <p class="discription-text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -86,31 +93,31 @@
         </section>
         <!--Услуги-->
         <section>
-          <h2>Чем мы занимаемся</h2>
+          <h2 class="title-text">Чем мы занимаемся</h2>
           <ul>
             <li>
               <a href="/">
                 <img src="./img/img1.jpg" alt="Box1" width="370" />
-                <p>Десктопные приложения</p>
+                <p class="work-list-item">Десктопные приложения</p>
               </a>
             </li>
             <li>
               <a href="/">
                 <img src="./img/box1.1.jpg" alt="Box2" width="370" />
-                <p>Мобильные приложения</p>
+                <p class="work-list-item">Мобильные приложения</p>
               </a>
             </li>
             <li>
               <a href="/">
                 <img src="./img/img3.jpg" alt="Box3" width="370" />
-                <p>Дизайнерские решения</p>
+                <p class="work-list-item">Дизайнерские решения</p>
               </a>
             </li>
           </ul>
         </section>
 
         <section>
-          <h2>Наша команда</h2>
+          <h2 class="title-text">Наша команда</h2>
           <ul>
             <li>
               <img
@@ -212,7 +219,7 @@
 
         <!--Постоянные клиенты-->
         <section>
-          <h2>Постоянные клиенты</h2>
+          <h2 class="title-text">Постоянные клиенты</h2>
           <ul>
             <li>
               <a href="/">
@@ -286,7 +293,7 @@
         <form>
           <span> <input type="email" name="email" placeholder="e-mail" /></span>
         </form>
-        <button type="submit">Подписаться</button>
+        <button type="submit" class="modal-btn">Подписаться</button>
       </div>
     </footer>
   </body>
