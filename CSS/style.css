@@ -45,7 +45,7 @@ body {
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19em;
   letter-spacing: 0.03em;
   color: var(--main-black-color);
 }
@@ -183,4 +183,79 @@ body {
   ); /* потрібно буде в кінці замінити на білий*/
 }
 
-/*іконки зробити кольором*/
+/*our team*/
+
+.team-people-name {
+  font-family: var(--font-family-main);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+
+.professon-name {
+  font-family: var(--font-family-main);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18em;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/*social links*/
+
+.social-list .social-link-item {
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  color: var(--primary-text-color);
+}
+
+.social-list {
+  text-align: center;
+}
+
+.social-link-item:hover,
+.social-link-item:focus {
+  color: var(--accent-color);
+}
+
+/* footer logo*/
+
+.footer-logo {
+  font-family: var(--font-family-secondary);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19em;
+  letter-spacing: 0.03em;
+  color: var(--main-black-color); /* потрібно буде замінити на білий*/
+}
+
+.footer-logo-color {
+  color: var(--accent-color);
+}
+
+.post-info {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71em;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color); /* потрібно буде замінити колір на чорний*/
+}
+
+/* footer contacts*/
+
+.footer-cantacts-link,
+.footer-contacts-item {
+  color: var(--primary-title-color);
+}
+
+. {
+}
