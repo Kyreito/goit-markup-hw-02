@@ -73,6 +73,10 @@ body {
   color: var(--accent-color);
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 /*оформлення кольору контактів*/
 
 .contacts-item,
